@@ -25,6 +25,13 @@ a {
   cursor: pointer;
 }
 
+.section-title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+}
+
 .wrapper {
   min-height: 100%;
   display: flex;
@@ -202,4 +209,32 @@ body {
 .swiper-pagination-bullets,
 .swiper-pagination-horizontal {
   margin-bottom: 50px;
+}
+
+.reasons {
+  padding: 150px 0px;
+
+  .reasons__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    text-align: center;
+    .reasons__item {
+      &-img {
+        margin-bottom: 30px;
+      }
+      &-title {
+        margin-bottom: 25px;
+        font-size: 24px;
+        font-weight: 700;
+      }
+      &-text {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.u {
+  margin-top: 10px;
 }
