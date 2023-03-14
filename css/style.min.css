@@ -317,4 +317,21 @@ body {
 
 .how-item + .how-item {
   margin-top: 40px;
+}
+
+.video {
+  padding-bottom: 150px;
+}
+.video-title {
+  margin-bottom: 20px;
+}
+.video__text {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.video__img {
+  margin: 0 auto;
+  display: block;
 }/*# sourceMappingURL=style.min.css.map */

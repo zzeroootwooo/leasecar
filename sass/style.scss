@@ -285,3 +285,20 @@ body {
 .how-item + .how-item {
   margin-top: 40px;
 }
+
+.video {
+  padding-bottom: 150px;
+  &-title {
+    margin-bottom: 20px;
+  }
+  &__text {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  &__img {
+    margin: 0 auto;
+    display: block;
+  }
+}
