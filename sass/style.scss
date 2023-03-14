@@ -125,6 +125,7 @@ body {
 }
 
 .footer {
+  margin-top: 160px;
   &__copy {
     max-width: 800px;
     margin: 0 auto 30px;
@@ -300,5 +301,22 @@ body {
   &__img {
     margin: 0 auto;
     display: block;
+  }
+}
+
+.important {
+  &__title {
+    margin-bottom: 20px;
+  }
+  &__text {
+    max-width: 580px;
+    margin: 0 auto 50px;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    .important__item-img {
+      margin-bottom: 20px;
+    }
   }
 }

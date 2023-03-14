@@ -151,6 +151,9 @@ body {
   gap: 25px;
 }
 
+.footer {
+  margin-top: 160px;
+}
 .footer__copy {
   max-width: 800px;
   margin: 0 auto 30px;
@@ -334,4 +337,19 @@ body {
 .video__img {
   margin: 0 auto;
   display: block;
+}
+
+.important__title {
+  margin-bottom: 20px;
+}
+.important__text {
+  max-width: 580px;
+  margin: 0 auto 50px;
+}
+.important__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.important__list .important__item-img {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.min.css.map */
