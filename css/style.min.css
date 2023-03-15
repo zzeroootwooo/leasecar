@@ -58,6 +58,10 @@ body {
   padding: 0px 10px;
 }
 
+.header {
+  background-color: #151515;
+  min-height: 140px;
+}
 .header__inner {
   padding-top: 40px;
   display: -webkit-box;
@@ -73,7 +77,7 @@ body {
 .header-main {
   background-color: transparent;
   position: absolute;
-  z-index: 5;
+  z-index: 10;
   left: 0;
   right: 0;
 }
@@ -352,4 +356,149 @@ body {
 }
 .important__list .important__item-img {
   margin-bottom: 20px;
+}
+
+.contact {
+  padding: 100px 0px 150px;
+}
+.contact__title {
+  margin-bottom: 20px;
+}
+.contact__text {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 50px;
+  padding: 0 100px;
+}
+.contact form {
+  max-width: 580px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.contact form .form__textarea {
+  width: 100%;
+  resize: none;
+  padding: 28px 20px;
+  height: 290px;
+  border: 1px solid #0066ff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 50px;
+}
+.contact form .form__textarea::-webkit-input-placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #151515;
+  opacity: 0.5;
+}
+.contact form .form__textarea::-moz-placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #151515;
+  opacity: 0.5;
+}
+.contact form .form__textarea:-ms-input-placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #151515;
+  opacity: 0.5;
+}
+.contact form .form__textarea::-ms-input-placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #151515;
+  opacity: 0.5;
+}
+.contact form .form__textarea::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #151515;
+  opacity: 0.5;
+}
+.contact form .form__input {
+  width: 270px;
+  padding: 18px 20px;
+  display: inline-block;
+  border: 1px solid #0066ff;
+  margin-bottom: 50px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #151515;
+}
+.contact form .form__input::-webkit-input-placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #151515;
+  opacity: 0.5;
+}
+.contact form .form__input::-moz-placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #151515;
+  opacity: 0.5;
+}
+.contact form .form__input:-ms-input-placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #151515;
+  opacity: 0.5;
+}
+.contact form .form__input::-ms-input-placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #151515;
+  opacity: 0.5;
+}
+.contact form .form__input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: #151515;
+  opacity: 0.5;
+}
+.contact form .form__btn {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #151515;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+  padding: 13px 61px;
+  margin: 0px auto;
+}
+
+.link-contact {
+  color: #0066ff;
 }/*# sourceMappingURL=style.min.css.map */
